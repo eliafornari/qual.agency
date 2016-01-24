@@ -1,6 +1,6 @@
 var Design = angular.module('myApp');
 
-Design.controller("designCtrl", ['$http','$scope','$templateCache','$location','$rootScope','getService', function($http, $scope, $templateCache, $location, $rootScope, getService){
+Design.controller("designCtrl", ['$http','$scope','$templateCache','$location','$rootScope','getService','$routeParams','detailService', function($http, $scope, $templateCache, $location, $rootScope, getService, $routeParams, detailService){
 
 
 

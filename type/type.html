@@ -1,3 +1,8 @@
 <div class="type" ng-controller="typeCtrl">
+  <ul class="type-ul">
+    <li class="type-li" ng-repeat="p in type_detail.images">
+      <img class="type-image" src="{{p}}" alt="{{p}}" />
+    </li>
+  </ul>
 
 </div>

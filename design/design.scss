@@ -1,0 +1,23 @@
+.design{
+  width: 100vw;
+  height: auto;
+  display: block;
+  overflow-x: hidden;
+}
+
+
+.design-ul{
+  width: 100vw;
+  height: auto;
+  display: block;
+  .design-li{
+    width: 100vw;
+    height: auto;
+    display: block;
+    .design-image{
+      width: 100vw;
+      height: auto;
+      display: block;
+    }
+  }
+}

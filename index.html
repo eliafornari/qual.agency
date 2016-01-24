@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" ng-app="myApp" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" ng-app="myApp" class="no-js" ><!--<![endif]-->
+<head>
+<!-- <link rel="stylesheet" href="css/reset.css"> -->
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+<title>qual agency</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<meta name="fragment" content="!">
+
+<link rel="stylesheet" href="stylesheet/reset.css">
+<link rel="stylesheet" href="app.min.css">
+<script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+
+
+<base href="/">
+
+<!-- .........................<span app-version></span> ....................-->
+
+<script>
+//google analytics goes here
+</script>
+
+</head>
+
+<body ng-controller="routeController">
+
+<!-- ng-mouseleave="hoverOut()" -->
+
+<!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<rubik-directive></rubik-directive>
+
+<div ng-show="pageLoading" class="page-loader-div">loading...</div>
+
+<!-- <div class="main-div" class="main-{{pageClass}}" ng-click="homeClick()"> -->
+<main ng-view="" class='main' autoscroll="" ng-controller="appCtrl"></main>
+
+</body>
+
+<!-- In production use: <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script> -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-resource.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-loader.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-touch.js"></script>
+<script type="text/javascript" src="concat.js"></script>
+
+
+</html>

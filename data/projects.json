@@ -1,0 +1,59 @@
+[
+  {
+    "title":"Zoo God - Fetty Wap",
+    "title_nav":"fetty-wap",
+    "category": "digital",
+    "description":"",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/fettywap_thumbnail.jpg"
+  },
+  {
+    "title":"Ne.Sense",
+    "title_nav":"ne-sense",
+    "category": "digital",
+    "description":"",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/nesense_thumbnail.jpg"
+  },
+  {
+    "title":"Ne-Sans",
+    "title_nav":"ne-sans",
+    "category": "type",
+    "description":"custom typeface for Ne-Sense.com",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/ne-sans_thumbnail.jpg"
+  },
+  {
+    "title":"svetlana",
+    "title_nav":"svetlana",
+    "category": "photography",
+    "description":"",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/svetlana_thumbnail.jpg"
+  },
+  {
+    "title":"300 entertainment",
+    "title_nav":"300-ent",
+    "category": "design",
+    "description":"300 entertainment holiday party invitations",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/300ent_thumbnail.jpg"
+  },
+  {
+    "title":"Bloomberg",
+    "title_nav":"bloomberg",
+    "category": "type",
+    "description":"",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/bloomberg_thumbnail.jpg"
+  }
+
+
+
+]

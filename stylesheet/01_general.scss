@@ -1,0 +1,79 @@
+/*.....................TEXT MARK STYLES......................*/
+::-moz-selection {
+    background: #FF0000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #FF0000;
+    text-shadow: none;
+}
+
+/*.....................ACTIVE CLASSES......................*/
+
+.active{
+    color: #FF0000 !important;
+    pointer-events: none;
+}
+
+/*.....................GENERAL STYLES......................*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face{
+    font-family:"Maison Neue";
+    src:url("../assets/fonts/MaisonNeue-Book.ttf")
+}
+
+@font-face{
+    font-family:"Maison Neue";
+    font-weight:700;
+    src:url("../assets/fonts/MaisonNeue-Bold.ttf")
+}
+
+@font-face{
+    font-family:"Maison Neue";
+    font-weight:200;
+    src:url("../assets/fonts/MaisonNeue-Light.ttf")
+}
+
+html{
+    font-family: helvetica;
+    width: 100%;
+    height: 100%;
+    margin: 0, 0;
+    padding: 0, 0;
+    outline: 0;
+}
+
+body {
+    width: 100%;
+    max-width:1400px;
+    height: auto;
+    margin: auto;
+    padding: 1px 0 0;
+    font: $paragraph-font-size;
+    line-height: $paragraph-line-height;
+    font-family: $font-family;
+    background-color: #111111;
+    outline: 0;
+}
+
+p, a, li {
+    font-size: $paragraph-font-size;
+    list-style-type: none;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+input, textarea, select, a, li {
+    text-decoration: none;
+    outline: 0;
+}
+
+main{
+  position: relative;
+  right:0;
+}

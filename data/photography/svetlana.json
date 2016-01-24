@@ -1,0 +1,22 @@
+{
+    "images": [
+      "assets/img/photography/svetlana/DSC_5294.jpg",
+      "assets/img/photography/svetlana/DSC_5387.jpg",
+      "assets/img/photography/svetlana/DSC_5397.jpg",
+      "assets/img/photography/svetlana/DSC_5410.jpg"
+    ],
+    "text": [
+      {
+        "role": "photography",
+        "name": "Allen Chiu"
+      },
+      {
+        "role": "art direction",
+        "name": "Simon Abranowicz"
+      },
+      {
+        "role": "styling",
+        "name": "Elia Fornari"
+      }
+    ]
+}

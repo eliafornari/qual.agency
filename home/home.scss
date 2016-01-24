@@ -1,0 +1,74 @@
+.container{
+    .header{
+        max-width:900px;
+        padding: 150px 0 50px 0;
+        h2{
+            margin:-18px 0;
+            font-weight:500;
+            font-size:45px;
+            line-height:1.5em;
+            color:$white;
+        }
+    }
+    .projects{
+        margin:0 0 -30px;
+        ul{
+            margin:0;
+            padding:0;
+            list-style:none;
+            li{
+                display:inline-block;
+                vertical-align:top;
+                height:200px;
+                margin:0 30px 30px 0;
+                float: right;
+                :last-of-type{
+                    margin:0 0 -30px !important
+                }
+                a{
+                  img{
+                    width: auto;
+                    height: 100%;
+                    display: block;
+
+                  }
+                }
+            }
+        }
+    }
+}
+
+// .home{
+
+// }
+
+// .home-content{
+//     width: 100vw;
+//     height: auto;
+//         .home-ul{
+//         width: 80vw;
+//         position: relative;
+//         left: 50%;
+//         margin-left: -40vw;
+
+//         .home-li{
+//         width: 400px;
+//         height: 250px;
+//         display: inline-block;
+//         .home-a{
+//             width: 100%;
+//             height: 100%;
+//             .home-p{
+
+//             }
+//             .home-image{
+//                 width: 100%;
+//                 height: 100%;
+//                 background-repeat: no-repeat;
+//                 background-size: auto 100%;
+//                 background-position: center;
+//             }
+//         }
+//         }
+//     }
+// }

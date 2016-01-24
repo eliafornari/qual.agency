@@ -1,0 +1,10 @@
+.rubik{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    .rubik-logo{
+        width: 120px;
+        height: 120px;
+        background: url('assets/img/rubik.svg') center no-repeat;
+    }
+}

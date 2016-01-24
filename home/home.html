@@ -1,0 +1,12 @@
+<div class="container" ng-controller="homeCtrl">
+    <header-directive></header-directive>
+    <div class="projects">
+        <ul>
+            <li class="project" ng-repeat="h in home_data">
+                <a class="home-a" href="/{{h.category}}/{{h.title_nav}}">
+                    <img src="{{h.image}}" alt="{{h.title}}">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

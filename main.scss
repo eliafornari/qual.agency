@@ -1,0 +1,14 @@
+// IMPORT PARTIALS
+@import "stylesheet/04_variables";
+@import "stylesheet/03_mixins";
+@import "stylesheet/01_general";
+@import "components/nav/nav";
+@import "components/header/header";
+@import "contact/contact";
+
+// IMPORT PAGES
+@import "home/home";
+@import "photography/photography";
+@import "digital/digital";
+@import "type/type";
+@import "digital/digital";

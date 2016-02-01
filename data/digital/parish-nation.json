@@ -1,0 +1,22 @@
+{
+    "url":"http://www.parish-nation.com/",
+    "url_background":"assets/img/home/parishnation_thumbnail.jpg",
+    "images": [
+      "assets/img/digital/parish_nation/1.jpg",
+      "assets/img/digital/parish_nation/2.jpg",
+      "assets/img/digital/parish_nation/3.jpg",
+      "assets/img/digital/parish_nation/4.jpg",
+      "assets/img/digital/parish_nation/5.jpg"
+    ],
+    "video":"",
+    "text": [
+      {
+        "role": "web design / programming",
+        "name": "Elia Fornari"
+      },
+      {
+        "role": "web design / programming",
+        "name": "Daniel Bell"
+      }
+    ]
+}

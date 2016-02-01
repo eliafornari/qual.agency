@@ -1,5 +1,32 @@
 [
   {
+    "title":"ester academy",
+    "title_nav":"ester",
+    "category": "digital",
+    "description":"",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/ester_thumbnail.jpg"
+  },
+  {
+    "title":"arcad-ism",
+    "title_nav":"arcadism",
+    "category": "digital",
+    "description":"",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/arcad-ism-thumbnail.png"
+  },
+  {
+    "title":"parish-nation",
+    "title_nav":"parishnation",
+    "category": "digital",
+    "description":"",
+    "date":"",
+    "url":"",
+    "image":"assets/img/home/parishnation_thumbnail.jpg"
+  },
+  {
     "title":"Zoo God - Fetty Wap",
     "title_nav":"zoo-god",
     "category": "design",

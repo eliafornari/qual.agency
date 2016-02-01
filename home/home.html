@@ -2,9 +2,17 @@
     <header-directive></header-directive>
     <div class="projects">
         <ul>
-            <li class="project" ng-repeat="h in home_data">
+            <li class="project" ng-repeat="h in home_data" ng-mouseover="show_thumbmnail=true" ng-mouseout="show_thumbmnail=false">
                 <a class="home-a" href="/{{h.category}}/{{h.title_nav}}">
-                    <img src="{{h.image}}" alt="{{h.title}}">
+                  <div class="home-project-name" ng-show="show_thumbmnail">
+                    <p class="home-project-name-p">
+                      {{h.title_nav}}
+                    </p>
+                    <p class="home-project-name-category">
+                      #{{h.category}}
+                    </p>
+                  </div>
+                  <div class="home-project-image" style="background-image: url('{{h.image}}')"></div>
                 </a>
             </li>
         </ul>

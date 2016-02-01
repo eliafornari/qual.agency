@@ -1,18 +1,18 @@
 /*.....................TEXT MARK STYLES......................*/
 ::-moz-selection {
-    background: #FF0000;
+    background: $red;
     text-shadow: none;
 }
 
 ::selection {
-    background: #FF0000;
+    background: $red;
     text-shadow: none;
 }
 
 /*.....................ACTIVE CLASSES......................*/
 
 .active{
-    color: #FF0000 !important;
+    color: $red !important;
     pointer-events: none;
 }
 
@@ -54,7 +54,7 @@ body {
     height: auto;
     margin: auto;
     padding: 1px 0 0;
-    font: $paragraph-font-size;
+    font: $font-size-paragraph;
     line-height: $paragraph-line-height;
     font-family: $font-family;
     background-color: #111111;
@@ -62,7 +62,7 @@ body {
 }
 
 p, a, li {
-    font-size: $paragraph-font-size;
+    font-size: $font-size-paragraph;
     list-style-type: none;
     color: #FFFFFF;
     outline: 0;

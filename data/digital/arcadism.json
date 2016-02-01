@@ -1,0 +1,35 @@
+{
+    "url":"http://slamjamsocialism.com/",
+    "url_background":"assets/img/digital/arcad_ism/arcadism_link.jpg",
+    "images": [
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-01.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-02.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-03.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-04.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-05.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-06.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-07.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-08.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-09.png",
+      "assets/img/digital/arcad_ism/GOOGLE_ADWORDS_-10.png"
+    ],
+    "video":"153772190",
+    "text": [
+      {
+        "role": "graphic design",
+        "name": "Simon Abranowicz"
+      },
+      {
+        "role": "animation",
+        "name": "Allen Chiu"
+      },
+      {
+        "role": "web design",
+        "name": "Jen Yuan"
+      },
+      {
+        "role": "web design",
+        "name": "Jen Yuan"
+      }
+    ]
+}

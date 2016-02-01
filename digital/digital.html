@@ -1,5 +1,22 @@
 <div class="digital" ng-controller="digitalCtrl">
 
-  <iframe class="digital-iframe" src="{{iframeURL}}" width="" height=""></iframe>
+
+  <iframe ng-if="digital_detail.video" class="digital-video" src="{{videoURL}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+  <ul class="digital-ul" ng-if="digital_detail.images">
+    <li class="digital-li" ng-repeat="p in digital_detail.images">
+      <img src="{{p}}" alt="{{p}}" />
+    </li>
+  </ul>
+
+  <!-- <iframe class="digital-iframe" src="{{iframeURL}}" width="" height=""></iframe> -->
+
+  <div class="digital-link">
+    <a href="{{iframeURL}}" target="_blank" class="digital-link-a">
+      <div class="digital-link-white"></div>
+      <div class="digital-link-background" style="background-image: url('{{digital_detail.url_background}}')"></div>
+    </a>
+  </div>
+
 
 </div>

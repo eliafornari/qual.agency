@@ -1,0 +1,15 @@
+{
+    "url":"http://ester.academy/",
+    "url_background":"assets/img/digital/ester_academy/ester-4.jpg",
+    "images": [
+      "assets/img/digital/ester_academy/ester-1.jpg",
+      "assets/img/digital/ester_academy/ester-2.jpg",
+      "assets/img/digital/ester_academy/ester-3.jpg"
+    ],
+    "text": [
+      {
+        "role": "web design / programming",
+        "name": "Elia Fornari"
+      }
+    ]
+}

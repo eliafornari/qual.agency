@@ -20,6 +20,9 @@ Digital.controller("digitalCtrl", ['$http','$scope','$templateCache','$location'
     $scope.base = data.url;
     $scope.iframeURL = $sce.trustAsResourceUrl($scope.base);
 
+    $scope.base_video = 'https://player.vimeo.com/video/'+ data.video+'?color=ffffff&title=0&portrait=0' ;
+    $scope.videoURL = $sce.trustAsResourceUrl($scope.base_video);
+
   });
 
 

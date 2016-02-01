@@ -2,7 +2,10 @@
 
 $font-family: "Maison Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
 
-$paragraph-font-size: 30px;
+
+$font-size-nav: 25px;
+$font-size-paragraph: 12px;
+
 $paragraph-line-height: 1.5em;
 $subhead-font-size: 15px;
 $subhead-line-height: 1em;
@@ -31,10 +34,13 @@ $transition-slow: .6s;
 $transition-medium: .4s;
 $transition-fast: .2s;
 
-$z-loader: 6;
+$z-loader: 10;
+$z-rubik:9;
+
 $z-nav: 5;
 $z-header: 4;
 $z-main: 3;
+
 
 $transition-slow: 1s;
 $transition-medium: 0.7s;

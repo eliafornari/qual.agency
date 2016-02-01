@@ -7,6 +7,7 @@ Header.controller("headerCtrl", ['$http','$scope','$templateCache','$location','
 .directive('rubikDirective', function(){
 	return{
 		restrict: 'E',
+		replace: true,
 		templateUrl: 'components/header/rubik.html',
 		link: function(){
 
@@ -17,6 +18,7 @@ Header.controller("headerCtrl", ['$http','$scope','$templateCache','$location','
 .directive('headerDirective', function(){
 	return{
 		restrict: 'E',
+		replace: true,
 		templateUrl: 'components/header/header.html',
 		link: function(){
 

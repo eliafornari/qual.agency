@@ -1,6 +1,6 @@
 .container{
     .header{
-        max-width:900px;
+        max-width: 900px;
         padding: 150px 0 50px 0;
         h2{
             margin:-18px 0;
@@ -19,17 +19,59 @@
             li{
                 display:inline-block;
                 vertical-align:top;
-                height:200px;
+                height: 200px;
+                width: 200px;
                 margin:0 30px 30px 0;
                 float: right;
-                :last-of-type{
-                    margin:0 0 -30px !important
-                }
+                // &:last-of-type{
+                //     margin:0 0 -30px !important
+                // }
                 a{
-                  img{
+                  height:100%;
+                  width: 100%;
+                  display: block;
+                  overflow: hidden;
+                    position: relative;
+                  .home-project-name{
+                    height: inherit;
+                    width: inherit;
+                    position: absolute;
+                    z-index: 4;
+                    background-color: #FFFFFF;
+                    opacity: 0.6;
+                    .home-project-name-p{
+                      position: absolute;
+                      height: 20px;
+                      top:50%;
+                      margin-top: -10px;
+                      width: 100%;
+                      text-align: center;
+                      color: #000000;
+                      font-size: $font-size-nav;
+                    }
+                    .home-project-name-category{
+                      text-align: center;
+                      position: absolute;
+                      right: 5px;
+                      bottom: 5px;
+                      font-size: $font-size-paragraph;
+                      color: #000000;
+                      background-color: #FF0000;
+
+                    }
+                  }
+
+                  .home-project-image{
+                    position: relative;;
+                    left:0;
+                    top: 0;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
                     width: auto;
                     height: 100%;
                     display: block;
+                    z-index: 3;
 
                   }
                 }
@@ -37,38 +79,3 @@
         }
     }
 }
-
-// .home{
-
-// }
-
-// .home-content{
-//     width: 100vw;
-//     height: auto;
-//         .home-ul{
-//         width: 80vw;
-//         position: relative;
-//         left: 50%;
-//         margin-left: -40vw;
-
-//         .home-li{
-//         width: 400px;
-//         height: 250px;
-//         display: inline-block;
-//         .home-a{
-//             width: 100%;
-//             height: 100%;
-//             .home-p{
-
-//             }
-//             .home-image{
-//                 width: 100%;
-//                 height: 100%;
-//                 background-repeat: no-repeat;
-//                 background-size: auto 100%;
-//                 background-position: center;
-//             }
-//         }
-//         }
-//     }
-// }

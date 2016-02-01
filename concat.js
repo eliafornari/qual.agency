@@ -442,6 +442,7 @@ Header.controller("headerCtrl", ['$http','$scope','$templateCache','$location','
 .directive('rubikDirective', function(){
 	return{
 		restrict: 'E',
+		replace: true,
 		templateUrl: 'components/header/rubik.html',
 		link: function(){
 
@@ -452,6 +453,7 @@ Header.controller("headerCtrl", ['$http','$scope','$templateCache','$location','
 .directive('headerDirective', function(){
 	return{
 		restrict: 'E',
+		replace: true,
 		templateUrl: 'components/header/header.html',
 		link: function(){
 
@@ -534,6 +536,9 @@ Digital.controller("digitalCtrl", ['$http','$scope','$templateCache','$location'
 
     $scope.base = data.url;
     $scope.iframeURL = $sce.trustAsResourceUrl($scope.base);
+
+    $scope.base_video = 'https://player.vimeo.com/video/'+ data.video+'?color=ffffff&title=0&portrait=0' ;
+    $scope.videoURL = $sce.trustAsResourceUrl($scope.base_video);
 
   });
 
